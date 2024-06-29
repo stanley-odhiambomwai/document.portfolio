@@ -1,3 +1,3 @@
-WScript{
+Script{
     
 }
