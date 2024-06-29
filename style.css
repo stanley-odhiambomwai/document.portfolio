@@ -1,20 +1,21 @@
-body{
-background-color: rgb(77, 101, 53);
+body {
+  background-color: rgb(77, 101, 53);
 }
-ul{
-    display: inline;
-    font-family: helvetica neue, roboto;
+ul {
+  font-family: helvetica neue, roboto;
 }
-h2{
-    color: rgb(189, 153, 141);
-    background-color: aqua;
+ul li{
+  display: inline;
 }
-h3{
-    color: floralwhite;
-    background-color: black;
+h2 {
+  color: rgb(189, 153, 141);
+  background-color: aqua;
 }
-h4{
-    color: darkkhaki;
-    background-color: green;
+h3 {
+  color: floralwhite;
+  background-color: black;
 }
-
+h4 {
+  color: darkkhaki;
+  background-color: green;
+}
