@@ -1,5 +1,12 @@
+*{
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
+
 body {
   background-color: rgb(77, 101, 53);
+  text-align: center;
 }
 ul {
   font-family: helvetica neue, roboto;
@@ -18,4 +25,7 @@ h3 {
 h4 {
   color: darkkhaki;
   background-color: green;
+}
+section{
+  margin: 45px;
 }
