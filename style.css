@@ -7,25 +7,85 @@
 body {
   background-color: rgb(77, 101, 53);
   text-align: center;
+  font-family: "roboto" sans-serif;
+  font-weight: 500;
+  font-style: normal;
 }
-ul {
-  font-family: helvetica neue, roboto;
+
+header{
+  background-color: rgb(55, 117, 120);
+  color: rgb(46, 24, 24);
 }
-ul li{
+
+ header nav ul li{
   display: inline;
+  margin-left: 42px;
 }
+
+section h3{
+  font-weight: 900;
+  margin-bottom: 12px;
+  text-transform: uppercase;
+}
+
 h2 {
   color: rgb(189, 153, 141);
   background-color: aqua;
 }
+
 h3 {
   color: floralwhite;
   background-color: black;
 }
+
 h4 {
   color: darkkhaki;
   background-color: green;
 }
-section{
+
+section#about {
   margin: 45px;
+}
+
+section#contact .flex{
+  display: flex;
+  background-color: rgb(202, 224, 243);
+  color: rgb(234, 23, 164);
+}
+
+section#contact .left{
+  background-color: rgb(40, 191, 237);
+  width: 28%;
+}
+
+section#contact .right form .name,
+section#contact .right form .email{
+  width: 52%;
+}
+
+section#contact .right form .name {
+  padding-right: 11px;
+}
+
+section#contact .right form input{ 
+  height: 26px;
+}
+
+section#contact .right form input,
+section#contact .right form textarea{
+  width: 100%;
+  padding: 11px 6px;
+}
+
+section#contact .right form label {
+display: block;
+font-size: 0.84em;
+margin-bottom: 6px;
+}
+
+footer{
+  padding: 19px 0;
+  text-align: center;
+  text-decoration: solid;
+  background-color: rgb(103, 133, 225);
 }
