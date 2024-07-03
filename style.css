@@ -5,13 +5,22 @@
 }
 
 body {
-  background-color: rgb(77, 101, 53);
+  background-color: black;
   text-align: center;
   font-family: "roboto" sans-serif;
   font-weight: 500;
   font-style: normal;
 }
-
+ 
+header h3 b u {
+  text-align: right;
+  background-color: black;
+  color: white;
+}
+section#about img{
+  border-radius: 2000%;
+  max-width: 100px;
+}
 header{
   background-color: rgb(55, 117, 120);
   color: rgb(46, 24, 24);
