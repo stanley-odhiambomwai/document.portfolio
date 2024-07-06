@@ -11,11 +11,15 @@ body {
   font-weight: 500;
   font-style: normal;
 }
+
+section ol p{
+  color: white;
+}
  
 header h3 b u {
   text-align: right;
   background-color: black;
-  color: white;
+  color: violet;
 }
 section#about img{
   border-radius: 2000%;
@@ -24,6 +28,10 @@ section#about img{
 header{
   background-color: rgb(55, 117, 120);
   color: rgb(46, 24, 24);
+}
+
+section h3 i {
+  color: violet;
 }
 
  header nav ul li{
@@ -90,6 +98,10 @@ section#contact .right form label {
 display: block;
 font-size: 0.84em;
 margin-bottom: 6px;
+}
+
+footer u h3{
+  color: violet;
 }
 
 footer{
