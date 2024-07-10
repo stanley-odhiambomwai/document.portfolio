@@ -1,3 +1,1 @@
-Script{
-    
-}
+const s = 'hello world';
