@@ -1,0 +1,48 @@
+* {
+    padding: 0;
+    margin:  0;
+    box-sizing: border-box;
+}
+
+.container {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    background-color: rgb(215, 77, 236);
+    height: 111dvh;
+}
+
+
+.top {
+    text-align: center;
+    margin-bottom: 80px;
+}
+
+.balance{
+font-size: medium;
+margin-bottom: 22px;
+text-align: center;
+}
+
+.balance #balance {
+    font-weight: 850;
+}
+
+form input{
+    padding: 12px;
+    margin: 11px 0;
+width: 100%;
+}
+
+form button{
+    margin: 11px 0;
+    cursor: pointer;
+    transition: background-color 0.4s;
+    width: 49.5%;
+    background-color: #471c1c;
+    color: #f4d2d2;
+    border: none;
+    padding: 11px;
+}
+
+
