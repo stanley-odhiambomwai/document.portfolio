@@ -14,3 +14,13 @@ function multiplyNumbers(num1,num2){
 multiplyNumbers(4,3)
 
 
+function oddOrEven(x) {
+  if(x%2=== 0) {
+    console.log('Even');
+  } else{
+    console.log('Odd');
+  }
+}
+
+oddOrEven(7)
+oddOrEven(2)
