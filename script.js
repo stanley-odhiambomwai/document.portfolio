@@ -16,11 +16,23 @@ multiplyNumbers(4,3)
 
 function oddOrEven(x) {
   if(x%2=== 0) {
-    console.log('Even');
+   return console.log('Even');
   } else{
-    console.log('Odd');
+   return console.log('Odd');
   }
 }
 
 oddOrEven(7)
 oddOrEven(2)
+
+function isPrime(num){
+  if (num <=1) return console.log( false);
+  for(let i = 2; i < num; i++){
+    if (num % i ===0){
+      return console.log(false);
+    }
+  }
+  return console.log( true);
+}
+isPrime(7)
+isPrime(4)
