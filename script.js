@@ -3,17 +3,22 @@ function Name(firstName,lastName){
 }
 Name('John','Wick')
 
+
+//addition
 function addNumbers(num1,num2){
   console.log( num1+num2);
 }
 addNumbers(3,4)
+//end of additon
 
+//multiple
 function multiplyNumbers(num1,num2){
   console.log(num1*num2);
 }
 multiplyNumbers(4,3)
+//end of multiple
 
-
+//odd or even
 function oddOrEven(x) {
   if(x%2=== 0) {
    return console.log('Even');
@@ -24,7 +29,9 @@ function oddOrEven(x) {
 
 oddOrEven(7)
 oddOrEven(2)
+//end of odd or even
 
+//prime
 function isPrime(num){
   if (num <=1) return console.log( false);
   for(let i = 2; i < num; i++){
@@ -36,3 +43,6 @@ function isPrime(num){
 }
 isPrime(7)
 isPrime(4)
+//end of prime
+
+
