@@ -45,4 +45,13 @@ isPrime(7)
 isPrime(4)
 //end of prime
 
+//printing the arrays individually using function method
+function printArrayElements(Array) {
+  Array.forEach((element) => {
+    console.log(element);
+  });
+}
+const myArray = [0, 2, 4, 7];
+printArrayElements(myArray);
+
 
