@@ -1,21 +1,21 @@
-function Name(firstName,lastName){
-  console.log(firstName + " " + lastName)
+function Name(name){
+  console.log(name)
 }
-Name('John','Wick')
+Name('John Wick')
 
 
 //addition
 function addNumbers(num1,num2){
-  console.log( num1+num2);
+ return  num1+num2;
 }
-addNumbers(3,4)
+console.log(addNumbers(3,4))
 //end of additon
 
 //multiple
 function multiplyNumbers(num1,num2){
-  console.log(num1*num2);
+  return num1*num2;
 }
-multiplyNumbers(4,3)
+console.log(multiplyNumbers(4,3));
 //end of multiple
 
 //odd or even
@@ -54,4 +54,26 @@ function printArrayElements(Array) {
 const myArray = [0, 2, 4, 7];
 printArrayElements(myArray);
 
+//EXAMINE THE DOCUMENT OBJECT//
+//console.dir(document);
 
+//console.log(document.domain);
+//console.log(document.URL)
+//console.log(document.title)
+//document.title = 123;
+
+//console.log(document.doctype);
+//console.log(document.head);
+//console.log(document.body);
+//console.log(document.all);
+//console.log(document.all[40]);
+//console.log(document.forms[0])
+//console.log(document.links)
+//console.log(document.images);
+
+//GETELEMTBYID
+//console.log(document.getElementById('About'))
+//console.log(document.getElementById('Work'))
+//console.log(document.getElementById('Resume'))
+//console.log(document.getElementById('Contact'))
+//console.log(document.getElementById('Footer'))
