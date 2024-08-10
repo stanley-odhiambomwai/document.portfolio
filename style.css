@@ -21,9 +21,9 @@ header h3 b u {
   background-color: black;
   color: violet;
 }
-section#about img{
-  border-radius:8000000 px;
-  max-width:150px ;
+.Image img{
+ max-width: 30%;
+ border-radius: 100%; 
 }
 header{
   background-color: rgb(55, 117, 120);

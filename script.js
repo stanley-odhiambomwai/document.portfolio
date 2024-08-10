@@ -4,7 +4,7 @@ function Name(name){
 Name('John Wick')
 
 
-//addition
+//addition 
 function addNumbers(num1,num2){
  return  num1+num2;
 }
@@ -19,8 +19,8 @@ console.log(multiplyNumbers(4,3));
 //end of multiple
 
 //odd or even
-function oddOrEven(x) {
-  if(x%2=== 0) {
+function oddOrEven(number) {
+  if(number%2=== 0) {
    return console.log('Even');
   } else{
    return console.log('Odd');
@@ -46,13 +46,13 @@ isPrime(4)
 //end of prime
 
 //printing the arrays individually using function method
-function printArrayElements(Array) {
+function printArrayElements(array) {
   Array.forEach((element) => {
     console.log(element);
   });
 }
 const myArray = [0, 2, 4, 7];
-printArrayElements(myArray);
+//printArrayElements(myArray);
 
 //EXAMINE THE DOCUMENT OBJECT//
 //console.dir(document);
@@ -77,3 +77,47 @@ printArrayElements(myArray);
 //console.log(document.getElementById('Resume'))
 //console.log(document.getElementById('Contact'))
 //console.log(document.getElementById('Footer'))
+
+//gimli = {
+  //name: "Gimli",
+  //race: "dwarf",
+  //weapon: "axe",
+  //greet: function() {
+   //   return `Hi, my name is ${this.name}!`;
+ // },
+//};
+
+//console.log(gimli.greet());
+//console.log(gimli.weapon);
+//console.log(gimli['weapon']);
+
+//var gimli = {
+  //name: "Gimli",
+  //race: "dwarf",
+  //weapon: "axe",
+  //greet: function() {
+    //  return `Hi, my name is ${this.name}!`;
+  //},
+//};
+
+//gimli.age = 139;
+
+//gimli.fight = function() {
+  //return `Gimli attacks with an ${this.weapon}.`;
+//}
+
+//console.log(gimli)
+
+
+
+function hasPrimeNumbers(arr) {
+  let count = 0;
+  for (let i = 0; i < arr.length; i++) {
+    if (arr[i] % 2 === 0) {
+      count++;
+    }
+  }
+  return count;
+}
+const exampleArray = [0, 2, 4, 7];
+console.log(hasPrimeNumbers(exampleArray));
