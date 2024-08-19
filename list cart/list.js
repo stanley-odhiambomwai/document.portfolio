@@ -5,6 +5,7 @@ const cartItems = [
     { id: 3, name: "Item 3", price: 20.00, quantity: 1 }
 ];
 
+
 function renderCart() {
     const cartDiv = document.getElementById('cart');
     cartDiv.innerHTML = '';
@@ -25,6 +26,7 @@ function renderCart() {
     updateTotalPrice();
 }
 
+
 function changeQuantity(id, delta) {
     const item = cartItems.find(item => item.id === id);
     if (item) {
@@ -34,6 +36,7 @@ function changeQuantity(id, delta) {
     renderCart(); // Re-render the cart to reflect changes
 }
 }
+
 function toggleLike(id) {
     const item = cartItems.find(item => item.id === id);
     if (item) {
@@ -43,16 +46,19 @@ function toggleLike(id) {
     }
 }
 
+
 function removeItem(id) {
     cartItems = cartItems.filter(item => item.id !== id); // Remove the item from the cart
     renderCart(); // Re-render the cart
 }
+
 
 function updateTotalPrice() {
     const totalPrice = cartItems.reduce((total, item) => total + (item.price * item.quantity), 0);
     const totalDiv = document.getElementById('total-price');
     totalDiv.innerHTML = `Total: $${totalPrice.toFixed(2)}`; // Update the total price display
 }
+
 
 // Initial render of the cart
 // Initial render of the cart
