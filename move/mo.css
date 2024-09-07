@@ -1,0 +1,31 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+  }
+
+  body{
+    background-color: rgb(18, 1, 1);
+    color: rgb(251, 241, 241);
+    text-align: center;
+    font-weight: 300px;
+    font-style: normal;
+  }
+
+  body h1 b u{
+    color: rgb(230, 107, 40);
+  }
+   section li p{
+    color: rgb(242, 237, 237);
+   }
+
+   header nav ol li {
+    text-align: center;
+    background-color: rgb(198, 223, 86);
+  }
+ 
+  .Image img{
+    max-width: 30%;
+    border-radius: 100%; 
+   }
+  

@@ -121,3 +121,58 @@ function hasPrimeNumbers(arr) {
 }
 const exampleArray = [0, 2, 4, 7];
 console.log(hasPrimeNumbers(exampleArray));
+
+//console.dir(document);
+//console.log(document.URL)
+//console.log(document.domain)
+//console.log(document.title)
+//console.log(document.doctype)
+//console.log(document.head)
+//console.log(document.body)
+//console.log(document.all)
+//console.log(document.all[10])
+//console.log(document.forms[0])
+//console.log(document.links)
+
+//console.log(document.images);
+
+//getElementById
+//console.log(document.getElementById('About'))
+//console.log(document.getElementById('work'))
+//console.log(document.getElementById('Resume'))
+//console.log(document.getElementById('cloths'))
+//let About = document.getElementById('About')
+//let About = document.getElementById('About')
+//console.log(About)
+//About.textContent = 'nature';
+//About.innertext = 'interesting'
+//console.log(About.inneText);
+//About.innerHTML = '<h3> hello</h3>'
+//Header.style.boderBottom = 'solid 4px #000'
+
+//GETELEMENTBYCLSSNAME
+//let about = document.getElementsByClassName('container')
+//console.log(about)
+//console.log(about[1])
+//about[1].textContent = 'hellow world';
+//about[1].style.fontweight = 'bold'
+//about[1].Style.backgroundColor = 'red'
+
+//gives error
+//about.style.backgroundColor = 'violet'
+
+//for(let i = 0; i < about.length;i++){
+ // about[1].style.backgroundColor = 'violet'
+//}
+//let about = document.getElementsByTagName('container')
+//console.log(h1)
+//console.log(h1[1])
+//h1[1].textContent = 'hellow world';
+//h1[1].style.fontweight = 'bold'
+//h1[1].Style.backgroundColor = 'red'
+
+//for(let i = 0; i < h1.length;i++){
+   //h1[1].style.backgroundColor = 'violet'}
+
+   //quaryselector
+   let body  = document.querySelector(' ')
