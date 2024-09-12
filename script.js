@@ -175,4 +175,11 @@ console.log(hasPrimeNumbers(exampleArray));
    //h1[1].style.backgroundColor = 'violet'}
 
    //quaryselector
-   let body  = document.querySelector(' ')
+   //let body  = document.querySelector(' ')
+   let num = 3
+   let num2 = 5
+   num--
+   num2++
+   let sum = num + num2
+   let result = sum**2
+   console.log(result)
