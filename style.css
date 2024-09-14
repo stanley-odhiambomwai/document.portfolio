@@ -5,7 +5,7 @@
 }
 
 body {
-  background-color: black;
+background-image: url(images/software.jpg);
   text-align: center;
   font-family: "roboto" sans-serif;
   font-weight: 500;
@@ -22,10 +22,28 @@ header h3 b u {
   background-color: black;
   color: violet;
 }
-.Image img{
+.hover-image img{
  max-width: 30%;
  border-radius: 100%; 
 }
+
+.hover-image {
+  width: 400px;
+  height: auto;
+  transition: opacity 0.3s ease;
+}
+
+/* Reduces the image opacity to 70% */
+.hover-image:hover {
+  opacity: 0.7; 
+}
+
+
+/* Zooms in the image by 10% */
+.hover-image:hover {
+  transform: scale(1.1);
+}
+
 header{
   background-color: rgb(55, 117, 120);
   color: rgb(46, 24, 24);
@@ -67,12 +85,10 @@ section#about {
 
 section#contact .flex{
   display: flex;
-  background-color: rgb(202, 224, 243);
   color: rgb(234, 23, 164);
 }
 
 section#contact .left{
-  background-color: rgb(40, 191, 237);
   width: 28%;
 }
 
@@ -99,6 +115,14 @@ section#contact .right form label {
 display: block;
 font-size: 0.84em;
 margin-bottom: 6px;
+}
+
+a:any-link{
+  text-align: right;
+}
+
+a:hover {
+  color: rgb(102, 255, 0);
 }
 
 footer u h3{
